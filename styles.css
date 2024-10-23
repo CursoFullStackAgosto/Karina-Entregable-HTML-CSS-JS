@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inconsolata:wght@200..900&display=swap');
+
+.container {
+    font-family: inconsolata;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0ba44b;    
+    gap: 12px;
+}
+
+.container .title {
+    font-family: arima;
+    font-size: 70px;
+    margin-bottom: 1px;
+}
+
+.container .input-task {
+    font-size: 1rem;
+    padding: 8px 16px;
+}
+
+.container .todo-list {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.container .send-button {
+    font-family: arima;
+    font-size: 1rem;
+    padding: 8px 16px;
+    background-color: #64f06b;
+    color: rgb(12, 12, 12);    
+    cursor: pointer;
+}
+
+.container .send-button:hover {
+    background-color: #0a7310;
+}
+
